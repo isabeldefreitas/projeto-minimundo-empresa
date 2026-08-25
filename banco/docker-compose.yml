@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:17
+    container_name: pg17
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./dump-treinamento_bi-TreinamentoBI-202503100910.tar:/backup/dump.tar
+    command: >
+      bash -c "
+      docker-entrypoint.sh postgres &
+      sleep 5 &&
+      psql -U postgres -c \"CREATE ROLE admint2mbi LOGIN PASSWORD 'senha123';\" &&
+      psql -U postgres -c \"CREATE ROLE alunos NOLOGIN;\" &&
+      wait"
