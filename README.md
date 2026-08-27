@@ -1,4 +1,4 @@
-# 🏢 Sistema de Gestão Empresarial — Modelagem de Banco de Dados
+# 🏢 Sistema de Gestão Empresarial + Modelagem de Banco de Dados
 
 Projeto de modelagem e implementação de um banco de dados relacional para representar e organizar informações relacionadas à gestão de colaboradores de uma empresa.
 
@@ -254,6 +254,6 @@ Algumas possíveis evoluções para o projeto:
 
 **Isabel de Freitas**
 
-Projeto desenvolvido para aplicação prática de conceitos de **modelagem e implementação de bancos de dados relacionais**.
+Projeto desenvolvido para aplicação prática de conceitos de **modelagem e implementação de bancos de dados relacionais** e analise de dados.
 
 ````
