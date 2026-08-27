@@ -47,7 +47,7 @@ O modelo contempla relacionamentos **1:1, 1:N e N:N**.
 
 ## 🧩 Diagrama do banco de dados
 
-![Diagrama do Banco de Dados](minimundo_empresa_projeto - public.png)
+![Diagrama do Banco de Dados](Diagrama_minimundo_empresa.drawio.svg)
 
 ---
 
